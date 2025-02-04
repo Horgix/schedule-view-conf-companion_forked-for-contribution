@@ -1,6 +1,8 @@
 <template>
   <header class="header">
-    <img class="header__logo" alt="ked logo" src="./ked.svg"/>
+    <a href="https://engineering.payfit.io">
+      <img class="header__logo" alt="Engineering I/O logo" src="./engineering-io-blue-horizontal.svg"/>
+    </a>
     <div class="header__banner">
       {{theDay}}
     </div>

@@ -7,7 +7,7 @@
     />
     <Loading v-else-if="loading"/>
     <Error v-else/>
-    <Legend/>
+    <!--<Legend/>-->
     <Footer/>
   </div>
 </template>
@@ -19,11 +19,13 @@
   import Footer from '@/components/Footer.vue';
   import Error from '@/components/Error.vue';
   import Loading from '@/components/Loading.vue';
-  import Legend from '@/components/Legend.vue';
+  //import Legend from '@/components/Legend.vue';
   import { ScheduleEvent } from '@/schedule/schedule';
+  //import scheduleJson from '/home/horgix/payfit/git/engineering-io/talks/tmp-schedule-2022-09-29.json';
+  import scheduleJson from '/talks.json';
 
   export default Vue.extend({
-    components: { Loading, Error, Header, Footer, Legend },
+    components: { Loading, Error, Header, Footer},//, Legend },
     data() {
       return {
         schedule: null as ScheduleEvent[] | null,
@@ -33,11 +35,17 @@
     },
     async mounted() {
       try {
-        const response = await axios.get<ScheduleEvent[]>('https://s3.eu-central-1.amazonaws.com/blacroix-conf-companion/xke/schedule.json');
-        if (response.status === 200) {
-          this.schedule = response.data;
-          this.day = response.data[0].fromTime;
-        }
+        //const response = await axios.get<ScheduleEvent[]>('https://s3.eu-central-1.amazonaws.com/blacroix-conf-companion/xke/schedule.json');
+        //const response = await axios.get<ScheduleEvent[]>('/home/horgix/payfit/git/engineering-io/talks/2022-10-29/foo.json');
+        //const response = await axios.get<ScheduleEvent[]>('json/engineering-io-schedule.json');
+        //const response = require("/home/horgix/payfit/git/engineering-io/talks/2022-10-29/foo.json");
+        const response = scheduleJson;
+        this.schedule = response;
+        this.day = response[0].fromTime;
+        //if (response.status === 200) {
+        //  this.schedule = response.data;
+        //  this.day = response.data[0].fromTime;
+        //}
       } catch (e) {
         console.error(e);
       } finally {
@@ -80,11 +88,5 @@
     display: inherit;
     text-decoration: none;
     width: 100%;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
   }
 </style>

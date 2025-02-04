@@ -1,14 +1,17 @@
 <template>
   <router-link
     class="talk"
-    :class="[talk.kind, talk.metadata.topic.label]"
+    :class="[talk.kind, talk.metadata.topic.label, talk.aws]"
     :to="`/${talk.id}`"
   >
     <div class="time">
       <span>{{ start }} - {{ end }}</span><span>{{ talk.room }}</span>
     </div>
     <div class="title">
-      {{ talk.title }}
+      {{ talk.title | truncate(70) }}
+    </div>
+    <div class="speakers">
+      {{ talk.speakers.map(speaker => speaker.name).join(', ') }}
     </div>
   </router-link>
 </template>
@@ -42,6 +45,7 @@ export default Vue.extend({
   flex-direction: column;
   width: auto;
   flex-grow: 1;
+  flex-wrap: wrap;
 
   &.keynote {
     background-color: $primary;
@@ -52,12 +56,18 @@ export default Vue.extend({
       height: auto;
     }
   }
+  &.yesAWS {
+    background-color: #cc6600;
+  }
 
   &:hover {
     background-color: darken(white, 10);
 
     &.keynote {
       background-color: darken($primary, 10);
+    }
+    &.yesAWS {
+      background-color: darken(#bb5500, 10);
     }
   }
 }
@@ -80,6 +90,15 @@ export default Vue.extend({
   align-items: center;
   font-size: .9em;
   line-height: 1em;
+}
+
+.speakers {
+  font-size: .8em;
+  opacity: .8;
+  margin-top: 5px;
+  display: flex;
+  margin-left: auto;
+  /* TODO: truncate if too large */
 }
 
 .Stratégie {

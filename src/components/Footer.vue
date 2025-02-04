@@ -1,35 +1,12 @@
 <template>
   <footer class="footer">
-    <div class="apps">
-      Apps KED (nécessite une adresse <strong>@publicissapient.fr</strong> ou <strong>@publicissapient.com</strong>).
-      <div class="badges">
-        <a
-          target="_blank"
-          href="https://appdistribution.firebase.dev/i/acee8c10c8f5b635"
-        >
-          <img
-            src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
-            alt="Application iOS KED"
-          />
-        </a>
-        <a
-          target="_blank"
-          href="https://play.google.com/store/apps/details?id=fr.xebia.xke"
-        >
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-            alt="Application Android KED"
-          >
-        </a>
-      </div>
-    </div>
     <div class="copyright">
-      © {{ new Date().getFullYear() }} Publicis Sapient. <a
-      href="https://github.com/xebia-france/schedule-view-conf-companion/issues"
+      © {{ new Date().getFullYear() }} Publicis Sapient. Configured for PayFit. <a
+      href="https://github.com/xebia-france/schedule-view-conf-companion"
       target="_blank"
       class="issues"
     >
-      Questions?</a>
+      Source code & Questions</a>
     </div>
   </footer>
 </template>

@@ -15,7 +15,7 @@
       </div>
     </div>
     <h1>{{ talk.title }}</h1>
-    <VueMarkdown class="summary">
+    <VueMarkdown class="summary" :breaks=false>
       {{ talk.summary || 'No talk summary.' }}
     </VueMarkdown>
     <a
@@ -23,13 +23,20 @@
       v-for="speaker in speakersWithUsername"
       :key="speaker.id"
       target="_blank"
-      :href="`https://blog.engineering.publicissapient.fr/author/${speaker.username}/`">
+      :href="`https://engineering.payfit.io`">
       {{ speaker.name }}
+    </a>
+    <a
+      target="_blank"
+      v-if="talk.onlineCallUrl"
+      class="meet"
+      :href="talk.onlineCallUrl">
+      Join the online call
     </a>
     <a
       class="rate"
       target="_blank"
-      :href="`https://conf-companion.firebaseapp.com/rate/${talk.conferenceId}#${talk.id}`">
+      :href="`https://openfeedback.io/payfit-engineering-io-september-2024/2024-09-19`">
       Leave a comment
     </a>
     <router-link class="back" to="/" replace>Back to the planning</router-link>
@@ -133,6 +140,11 @@ export default {
   font-size: .9em;
   margin-top: 30px;
   margin-bottom: 40px;
+  list-style-type: circle;
+
+  .ul {
+    list-style-type: circle;
+    }
 }
 
 .time {
@@ -161,5 +173,8 @@ export default {
   border-radius: $radius;
   margin-bottom: 10px;
   box-sizing: border-box;
+}
+
+ul {
 }
 </style>
