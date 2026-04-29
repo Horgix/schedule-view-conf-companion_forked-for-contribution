@@ -24,32 +24,40 @@ export default {
 .category {
   display: block;
   width: fit-content;
-  padding: 3px 5px 0 5px;
   margin-top: 7px;
   font-size: .8em;
-  border-radius: $radius;
+  border-radius: $radius-badge;
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 4px 8px 4px 8px;
+  font-weight: 800;
 }
 
-.Stratégie {
-  background: $strategy;
-}
-
-.Experience {
+.Experience, .Design {
   background: $experience;
 }
 
 .Sécurité, .Engineering, .Craft, .Mobile, .Cloud {
   background: $engineering;
-  color: #FFFFFF;
 }
 
-.Agile, .Produit, .Green {
+.Agile, .Produit, .Green, .Stratégie  {
   background: $product;
-  color: #FFFFFF;
 }
 
-.Data {
+.Data, .AI {
   background: $data;
-  color: #FFFFFF;
+}
+
+.AI:before, .AI:after{
+  content: "✨";
+}
+
+.AI:before{
+  margin-right: 4px;
+}
+
+.AI:after{
+  margin-left: 4px;
 }
 </style>

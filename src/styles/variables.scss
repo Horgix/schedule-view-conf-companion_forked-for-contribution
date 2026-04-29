@@ -40,15 +40,20 @@ $text-on-passive: black;
 $background: #FFF6E6;
 
 $radius: 2px;
+$radius-badge: 20px;
 $shadow: 0 0 20px 0 rgb(0 0 0 / 15%);
 
-$strategy: #FF0000;
-$product: #FF0000;
-$experience: #FF0000;
-$engineering: $accent;
-$data: #FF0000;
-//$other: #000000;
+$engineering: #ffb60a; // sunglow
+$product: #13b9b0; // teal l4
+$design:#e6329b; // plum l4
+$data: #b6a8ff; // purple l4
 $other: #FF0000;
+
+// derivative topic
+$ai:$data;
+$experience:$design;
+$strategy: $product;
+//$other: #000000;
 
 %body-shared {
   max-width: 1024px;

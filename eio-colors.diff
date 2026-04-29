@@ -1,0 +1,140 @@
+diff --git a/src/App.vue b/src/App.vue
+index b468fbc..0d7fa07 100644
+--- a/src/App.vue
++++ b/src/App.vue
+@@ -22,7 +22,7 @@
+   //import Legend from '@/components/Legend.vue';
+   import { ScheduleEvent } from '@/schedule/schedule';
+   //import scheduleJson from '/home/horgix/payfit/git/engineering-io/talks/tmp-schedule-2022-09-29.json';
+-  import scheduleJson from '/talks.json';
++  import scheduleJson from './talks.json';
+ 
+   export default Vue.extend({
+     components: { Loading, Error, Header, Footer},//, Legend },
+diff --git a/src/components/Category.vue b/src/components/Category.vue
+index cd852fc..93fcbcd 100644
+--- a/src/components/Category.vue
++++ b/src/components/Category.vue
+@@ -24,32 +24,40 @@ export default {
+ .category {
+   display: block;
+   width: fit-content;
+-  padding: 3px 5px 0 5px;
+   margin-top: 7px;
+   font-size: .8em;
+-  border-radius: $radius;
+-}
+-
+-.Stratégie {
+-  background: $strategy;
++  border-radius: $radius-badge;
++  color: #FFFFFF;
++  border-radius: 20px;
++  padding: 4px 8px 4px 8px;
++  font-weight: 800;
+ }
+ 
+-.Experience {
++.Experience, .Design {
+   background: $experience;
+ }
+ 
+ .Sécurité, .Engineering, .Craft, .Mobile, .Cloud {
+   background: $engineering;
+-  color: #FFFFFF;
+ }
+ 
+-.Agile, .Produit, .Green {
++.Agile, .Produit, .Green, .Stratégie  {
+   background: $product;
+-  color: #FFFFFF;
+ }
+ 
+-.Data {
++.Data, .AI {
+   background: $data;
+-  color: #FFFFFF;
++}
++
++.AI:before, .AI:after{
++  content: "✨";
++}
++
++.AI:before{
++  margin-right: 4px;
++}
++
++.AI:after{
++  margin-left: 4px;
+ }
+ </style>
+diff --git a/src/components/Talk.vue b/src/components/Talk.vue
+index 1e53542..b429b45 100644
+--- a/src/components/Talk.vue
++++ b/src/components/Talk.vue
+@@ -101,15 +101,12 @@ export default Vue.extend({
+   /* TODO: truncate if too large */
+ }
+ 
+-.Stratégie {
+-  border-left: solid 3px $strategy;
+-}
+ 
+-.Agile, .Produit, .Green {
++.Agile, .Produit, .Green, .Stratégie {
+   border-left: solid 3px $product;
+ }
+ 
+-.Experience {
++.Experience, .Design {
+   border-left: solid 3px $experience;
+ }
+ 
+@@ -117,10 +114,14 @@ export default Vue.extend({
+   border-left: solid 3px $engineering;
+ }
+ 
+-.Data {
++.Data, .AI {
+   border-left: solid 3px $data;
+ }
+ 
++.AI {
++  background: url('data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20126%2069%22%20width=%22126%22%20height=%2269%22%20style=%22opacity:%200.25;filter:%20hue-rotate(210deg);%22%3E%3Ctext%20x=%220em%22%20y=%221em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%221em%22%20y=%222em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%222em%22%20y=%221em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%223em%22%20y=%222em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3C/svg%3E') repeat;
++  background-size: 126px 69px;
++}
+ .Other {
+   border-left: solid 3px $other;
+ }
+diff --git a/src/styles/variables.scss b/src/styles/variables.scss
+index 502cdf7..4ab8572 100644
+--- a/src/styles/variables.scss
++++ b/src/styles/variables.scss
+@@ -40,16 +40,21 @@ $text-on-passive: black;
+ $background: #FFF6E6;
+ 
+ $radius: 2px;
++$radius-badge: 20px;
+ $shadow: 0 0 20px 0 rgb(0 0 0 / 15%);
+ 
+-$strategy: #FF0000;
+-$product: #FF0000;
+-$experience: #FF0000;
+-$engineering: $accent;
+-$data: #FF0000;
+-//$other: #000000;
++$engineering: #ffb60a; // sunglow
++$product: #13b9b0; // teal l4
++$design:#e6329b; // plum l4
++$data: #b6a8ff; // purple l4
+ $other: #FF0000;
+ 
++// derivative topic
++$ai:$data;
++$experience:$design;
++$strategy: $product;
++//$other: #000000;
++
+ %body-shared {
+   max-width: 1024px;
+   box-shadow: $shadow;
