@@ -22,7 +22,7 @@
   //import Legend from '@/components/Legend.vue';
   import { ScheduleEvent } from '@/schedule/schedule';
   //import scheduleJson from '/home/horgix/payfit/git/engineering-io/talks/tmp-schedule-2022-09-29.json';
-  import scheduleJson from './talks.json';
+  import scheduleJson from '/talks.json';
 
   export default Vue.extend({
     components: { Loading, Error, Header, Footer},//, Legend },
