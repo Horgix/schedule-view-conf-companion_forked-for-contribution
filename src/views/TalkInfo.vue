@@ -36,7 +36,7 @@
     <a
       class="rate"
       target="_blank"
-      :href="`https://openfeedback.io/payfit-engineering-io-september-2024/2024-09-19`">
+      :href="`https://openfeedback.io/payfit-engineering-io-june-2026/2026-06-18`">
       Leave a comment
     </a>
     <router-link class="back" to="/" replace>Back to the planning</router-link>

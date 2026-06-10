@@ -33,7 +33,7 @@ export default {
   font-weight: 800;
 }
 
-.Experience, .Design {
+.Experience, .Design, .UX, .UI {
   background: $experience;
 }
 
@@ -41,7 +41,7 @@ export default {
   background: $engineering;
 }
 
-.Agile, .Produit, .Green, .Stratégie, .Product  {
+.Agile, .Produit, .Green, .Stratégie, .Product {
   background: $product;
 }
 
