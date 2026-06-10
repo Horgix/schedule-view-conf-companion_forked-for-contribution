@@ -41,7 +41,7 @@ export default {
   background: $engineering;
 }
 
-.Agile, .Produit, .Green, .Stratégie  {
+.Agile, .Produit, .Green, .Stratégie, .Product  {
   background: $product;
 }
 
