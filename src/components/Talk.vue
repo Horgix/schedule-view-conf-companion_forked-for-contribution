@@ -102,11 +102,11 @@ export default Vue.extend({
 }
 
 
-.Agile, .Produit, .Green, .Stratégie {
+.Agile, .Produit, .Green, .Stratégie, .Product{
   border-left: solid 3px $product;
 }
 
-.Experience, .Design {
+.Experience, .Design, .UX, .UI {
   border-left: solid 3px $experience;
 }
 
