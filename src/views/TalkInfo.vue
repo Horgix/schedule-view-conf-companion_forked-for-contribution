@@ -129,9 +129,9 @@ export default {
   text-transform: uppercase;
   text-align: center;
   font-size: .8em;
-
+  color: $text-on-accent;
   &:hover {
-    background-color: darken($accent, 10);
+    background-color: lighten($accent, 10);
   }
 }
 

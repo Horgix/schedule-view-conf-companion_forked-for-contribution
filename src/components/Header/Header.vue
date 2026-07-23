@@ -4,7 +4,7 @@
       <img class="header__logo" alt="Engineering I/O logo" src="./engineering-io-blue-horizontal.svg"/>
     </a>
     <div class="header__banner">
-      {{theDay}}
+      <h2>{{theDay}}</h2>
     </div>
   </header>
 </template>
@@ -28,7 +28,6 @@
 @import "../../styles/variables";
 
   .header {
-    background-color: $background;
     width: 100%;
     text-transform: uppercase;
     text-align: center;

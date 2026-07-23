@@ -19,10 +19,8 @@
   import Footer from '@/components/Footer.vue';
   import Error from '@/components/Error.vue';
   import Loading from '@/components/Loading.vue';
-  //import Legend from '@/components/Legend.vue';
   import { ScheduleEvent } from '@/schedule/schedule';
-  //import scheduleJson from '/home/horgix/payfit/git/engineering-io/talks/tmp-schedule-2022-09-29.json';
-  import scheduleJson from '/talks.json';
+  import scheduleJson from './talks.json'; // for local development
 
   export default Vue.extend({
     components: { Loading, Error, Header, Footer},//, Legend },
@@ -35,17 +33,14 @@
     },
     async mounted() {
       try {
-        //const response = await axios.get<ScheduleEvent[]>('https://s3.eu-central-1.amazonaws.com/blacroix-conf-companion/xke/schedule.json');
-        //const response = await axios.get<ScheduleEvent[]>('/home/horgix/payfit/git/engineering-io/talks/2022-10-29/foo.json');
-        //const response = await axios.get<ScheduleEvent[]>('json/engineering-io-schedule.json');
-        //const response = require("/home/horgix/payfit/git/engineering-io/talks/2022-10-29/foo.json");
-        const response = scheduleJson;
-        this.schedule = response;
-        this.day = response[0].fromTime;
-        //if (response.status === 200) {
+        //const response = await axios.get<ScheduleEvent[]>('https://engineering.payfit.io/schedules/latest.json');
+        const response = scheduleJson; // for local development
+        this.schedule = response; // for local development
+        this.day = response[0].fromTime; // for local development
+        // if (response.status === 200) {
         //  this.schedule = response.data;
         //  this.day = response.data[0].fromTime;
-        //}
+        // }
       } catch (e) {
         console.error(e);
       } finally {
@@ -65,6 +60,20 @@
     src: url('./styles/FuturaNext_Book.otf');
   }
 
+  @font-face {
+    font-family: 'Inter Variable';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./styles/Inter.ttf');
+  }
+
+    @font-face {
+    font-family: 'Heartbreak Eighties Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./styles/HeartbreakEighties-Regular.woff');
+  }
+
   *, *:before, *:after {
     box-sizing: border-box;
   }
@@ -73,7 +82,7 @@
     margin: 0;
     padding: 0;
     background-color: $background;
-    font-family: 'Futura Next', serif;
+    font-family: 'Inter Variable', 'Futura Next', serif;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -88,5 +97,14 @@
     display: inherit;
     text-decoration: none;
     width: 100%;
+  }
+
+  h1,h2,h3,h4,h5 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heartbreak Eighties Regular', sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 </style>

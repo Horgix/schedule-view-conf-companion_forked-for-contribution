@@ -1,0 +1,739 @@
+[
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 16:00",
+        "id": "20-interviews-about-ai-usage-by-engineers-questions-learnings-fears-and-the-human-side-of-ai",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Data",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/qix-thrp-sam",
+        "room": "LGB",
+        "speakers": [
+            {
+                "id": "Pierre Besson",
+                "name": "Pierre Besson"
+            }
+        ],
+        "summary": "Over the past few weeks, I\u2019ve been talking with engineers across the organization to better understand how they are using AI in their day-to-day work.\n\nThe goal wasn\u2019t to measure adoption or create a scorecard. Instead, I wanted to learn what people are actually doing, what is working well, where they see value, and what is getting in the way.\n\nThese conversations helped surface real use cases, common patterns, and opportunities to improve and was a lot about the human behind the process of using AI. \n\nIn this session, I\u2019ll share the approach I took, the questions I asked, the key insights that emerged, and some ideas for actions we could take next, from sharing best practices to investing in tools, workflows, and convictions",
+        "title": "20+ Interviews About AI Usage by Engineers: Questions, Learnings, Fears, and the Human Side of AI",
+        "toTime": "2026-06-18 16:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 14:30",
+        "id": "a-time-team-story-how-emmett-helped-us-find-our-way-back",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/qix-thrp-sam",
+        "room": "LGB",
+        "speakers": [
+            {
+                "id": "Visoth Tan",
+                "name": "Visoth Tan"
+            },
+            {
+                "id": "Mohamed Rafaa Seddik",
+                "name": "Mohamed Rafaa Seddik"
+            },
+            {
+                "id": "Adrien Sambres",
+                "name": "Adrien Sambres"
+            }
+        ],
+        "summary": "Almost 2 years ago, the Time team set out to keep absences, schedules, time tracking, and their payroll impact consistent across systems. We reached for event sourcing. It was a sound choice. So how did we end up with a system that worked, but was buried under complexity that had nothing to do with the actual problem?\n\nThis is a retrospective on how a well-intentioned architecture quietly drifted. We will share the moment we realised why, and how we are climbing back out. Along the way we will name the trap we fell into, a concept called semantic diffusion. You will probably start spotting it in your own domains by the end.\n\nNo laptop and no prior event-sourcing knowledge needed. If you have ever inherited a system that felt far more complicated than the problem it solved, come along.",
+        "title": "A Time Team Story - How Emmett Helped Us Find Our Way Back",
+        "toTime": "2026-06-18 15:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 17:00",
+        "id": "ai-fatigue-our-brains-deserve-a-step-back",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "AI",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/qix-thrp-sam",
+        "room": "LGB",
+        "speakers": [
+            {
+                "id": "Ghizlane Aroussi",
+                "name": "Ghizlane Aroussi"
+            }
+        ],
+        "summary": "Progress hasn't always meant a better life for the people living through it. The industrial revolution gave us extraordinary things, and also exhausted bodies, displaced workers, and decades of figuring out what had just happened. We're in one of those moments again.\nOver the past year, working with AI has become more intense for most of us, and most of us have hit at least one point of feeling drained.\nOur attention is pulled in too many directions at once: keeping up with the flood of news, running several things in parallel, spending hours reviewing AI output instead of building in a long focused flow, and sitting with bigger questions about the future of our jobs and even our society. The essence of the work is changing, from focusing on producing one thing at a time, to thinking, delegating, and reviewing several things. And it's tiring in a way we didn't sign up for.\nIt's still genuinely exciting to be part of this shift, and collectively we can do greater things than ever. But to get there without burning out, we need to step back and think about how to do this the right way, in a way we can sustain. Let's talk about it: a short intro from me, and most importantly, your insights. How do you organise your day with AI so it doesn't drain you? What exactly is draining?",
+        "title": "AI Fatigue: our brains deserve a step back",
+        "toTime": "2026-06-18 17:55",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 15:30",
+        "id": "behind-the-scenes-of-an-ai-powered-research-project-title-subject-to-change",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Product",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/poh-ywzz-rir",
+        "room": "LGH",
+        "speakers": [
+            {
+                "id": "Ghita Benotmane",
+                "name": "Ghita Benotmane"
+            },
+            {
+                "id": "Margaux Boivin",
+                "name": "Margaux Boivin"
+            }
+        ],
+        "summary": "Ghita and Margaux ran a research project on onboarding frictions using a stack of Dust agents, NotebookLM, and a Salesforce MCP to crunch 400+ data points from 7 sources (CES, support tickets, Copilot logs, Slack escalations, call transcripts...) in about 2 weeks.\nThis talk is a honest walkthrough of the whole thing: the pipeline we built, where AI actually saved us time and where it confidently hallucinated root causes. We'll also talk about the rework tax, why expert knowledge doesn't serialize into a prompt, and why AI workflows are weirdly optimized for solo mode.\nCome if you're curious about what research looks like from the inside !",
+        "title": "Behind the scenes of an AI-powered research project",
+        "toTime": "2026-06-18 15:55",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 14:30",
+        "id": "beyond-autocomplete-mastering-context-engineering",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "AI",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/poh-ywzz-rir",
+        "room": "LGH",
+        "speakers": [
+            {
+                "id": "Anthony Quere",
+                "name": "Anthony Quere"
+            }
+        ],
+        "summary": "Why do AI agents still miss obvious things, ignore conventions, or fail on the first try? This talk looks beyond the model and focuses on the real differentiator: context. You will learn practical ways to improve your repository, instructions, tooling, and agent setup to get better results from AI-first development.",
+        "title": "Beyond Autocomplete, Mastering context engineering for the AI-First Developer",
+        "toTime": "2026-06-18 15:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 17:00",
+        "id": "building-with-event-sourcing-experience-lessons-and-event-ride",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/fqx-ihit-udt",
+        "room": "LGA",
+        "speakers": [
+            {
+                "id": "Karam Elhabouti",
+                "name": "Karam Elhabouti"
+            },
+            {
+                "id": "Gr\u00e9gory Bellencontre",
+                "name": "Gr\u00e9gory Bellencontre"
+            },
+            {
+                "id": "David del Puerto",
+                "name": "David del Puerto"
+            }
+        ],
+        "summary": "This talk presents our team\u2019s hands-on experience with event sourcing. I\u2019ll walk through how we use it in practice, what benefits we gained, and what difficulties we encountered along the way. I\u2019ll also dedicate a part of the talk to event-ride, the internal framework we built to support event-sourced development and help teams apply the pattern more consistently.",
+        "title": "Building with Event Sourcing: Experience, Lessons, and Event-ride",
+        "toTime": "2026-06-18 17:55",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 16:00",
+        "id": "codex",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/poh-ywzz-rir",
+        "room": "LGH",
+        "speakers": [
+            {
+                "id": "Adrien Stefanski",
+                "name": "Adrien Stefanski"
+            }
+        ],
+        "summary": "A practical demo of how Codex fits into everyday engineering workflows, from repo context and code review to async tasks, browser testing, and team-specific tooling.",
+        "title": "Codex - Basic usage and 101, again \u267b\ufe0f",
+        "toTime": "2026-06-18 16:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 18:00",
+        "id": "keynote-beers",
+        "kind": "keynote",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://app.gather.town/app/aS8YA2UcWXJWvSBQ/PayFit",
+        "room": "LGA",
+        "speakers": [
+            {
+                "id": "Engineering I/O organizing team",
+                "name": "Engineering I/O organizing team"
+            }
+        ],
+        "summary": "A time to relax, discuss the talks, ask the questions that you might not have\nhad the opportunity to ask, etc.\n\nFor the PayFiters who are attending remotely, remember that you can gather\non... well, Gather :)\n\nPlease also remember to provide feedback to the speakers as well as the organizers now that the event is over!\n\nThank you!",
+        "title": "\ud83c\udf7b Beers (and other non-alcoholic yet socializing drinks)",
+        "toTime": "2026-06-18 18:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 16:30",
+        "id": "keynote-coffee-break",
+        "kind": "keynote",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/fqx-ihit-udt",
+        "room": "LGA",
+        "speakers": [
+            {
+                "id": "Engineering I/O organizing team",
+                "name": "Engineering I/O organizing team"
+            }
+        ],
+        "summary": "Tea, coffee, etc. A well needed break in the middle of the talks!\n\nAs per usual, please be respectful of other Payfiters during the break, and\nkeep the noise level low in work areas! \ud83d\ude09",
+        "title": "\u2615 Coffee Break",
+        "toTime": "2026-06-18 16:55",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 14:00",
+        "id": "keynote-intro",
+        "kind": "keynote",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/fqx-ihit-udt",
+        "room": "LGA",
+        "speakers": [
+            {
+                "id": "S\u00e9bastien Chauffray",
+                "name": "S\u00e9bastien Chauffray"
+            },
+            {
+                "id": "Engineering I/O organizing team",
+                "name": "Engineering I/O organizing team"
+            }
+        ],
+        "summary": "Introductive talk in a \"all hands\" fashion with the following agenda:\n\n  - [10min] S\u00e9bastien Chauffray: a few words (including internal mobilities & arrivals)\n  - [5min] Engineering I/O Organizers: meta informations about Engineering I/O",
+        "title": "\ud83d\udce2 Announcements / Introduction",
+        "toTime": "2026-06-18 14:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 17:30",
+        "id": "simday-short-summary",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/poh-ywzz-rir",
+        "room": "LGH",
+        "speakers": [
+            {
+                "id": "Alexis \"Horgix\" Chotard",
+                "name": "Alexis \"Horgix\" Chotard"
+            }
+        ],
+        "summary": "Yesterday, we had our first SimDay: a Disaster Recovery simulation exercise.\n\nWe surely learnt a lot from it. We don't know yet when submitting this talk, which will be a fresh hot-out-of-the-press summary of our findings during this exercise.\n\nCome and learn why we may have had a hard time spinning the most critical part of PayFit app in another AWS account/region!",
+        "title": "Simday #1: first impressions and learnings ",
+        "toTime": "2026-06-18 17:55",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 17:00",
+        "id": "test-health-your-team-mate-for-testing",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Engineering",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/poh-ywzz-rir",
+        "room": "LGH",
+        "speakers": [
+            {
+                "id": "Visoth Tan",
+                "name": "Visoth Tan"
+            }
+        ],
+        "summary": "Tests feel expensive to write and maintain? Still relying on manual QA? Lost between the Test Pyramid, E2E, TDD and BDD \u2014 and what they mean for your day to day? Wondering where your team stands on testing compared to the rest of the company? Or just wishing product and tech spoke the same language? Test Health is your companion for that journey: a score card to know where you stand, and living documentation that turns your tests into the shared reference between product and engineering. Nobody runs a marathon on day one. Sport is a virtuous circle, and QA is too.",
+        "title": "Test Health, your team mate for testing",
+        "toTime": "2026-06-18 17:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 14:30",
+        "id": "the-anatomy-of-payfit-copilot-cracking-open-our-ai-stack",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "AI",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/fqx-ihit-udt",
+        "room": "LGA",
+        "speakers": [
+            {
+                "id": "Cl\u00e9ment Heliot",
+                "name": "Cl\u00e9ment Heliot"
+            },
+            {
+                "id": "Mejdi Ourir",
+                "name": "Mejdi Ourir"
+            },
+            {
+                "id": "Alex Pineau",
+                "name": "Alex Pineau"
+            },
+            {
+                "id": "Elodie Veysseyre",
+                "name": "Elodie Veysseyre"
+            }
+        ],
+        "summary": "PayFit Copilot isn't one assistant, it's a fleet of agents serving different personas: admins, employees, and our support teams. In this talk we crack open how it actually works in production, end to end.\nWe'll walk through the architecture and the stack we built on: the general agents that handle day-to-day questions, the specialized agents that take over for deeper work, the tools that let agents actually do things, and how Dora, our classification system, analyzes incoming queries to extract the topic and feed the right context into the agents that answer the questions.\nroom: LGA\nWe'll then get into the parts that make this stack livable: how we manage our prompts as versioned artifacts, how we iterate on them and promote them safely from dev to production, and how we evaluate agent quality so we know when a change actually improves things instead of just feeling like it does.\nWe'll touch briefly on observability, the traces and signals that let us debug a real conversation after the fact.\nYou'll leave with a concrete mental model of a multi-agent system running on real payroll dat: what works, where we bled, and what we'd do differently.",
+        "title": "The Anatomy of PayFit Copilot: cracking open our AI stack",
+        "toTime": "2026-06-18 15:55",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 16:00",
+        "id": "the-backstage-of-the-brand-evolution",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "Design",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/fqx-ihit-udt",
+        "room": "LGA",
+        "speakers": [
+            {
+                "id": "David Ruiz",
+                "name": "David Ruiz"
+            },
+            {
+                "id": "Jules Mah\u00e9",
+                "name": "Jules Mah\u00e9"
+            },
+            {
+                "id": "Ga\u00ebl De Percin",
+                "name": "Ga\u00ebl De Percin"
+            }
+        ],
+        "summary": "We would like to show the backstage process, results and discussions from the Brand Strategy definition to the Visual identity",
+        "title": "The backstage of the brand evolution",
+        "toTime": "2026-06-18 16:25",
+        "track": "engineering",
+        "type": "talk"
+    },
+    {
+        "conferenceId": "payfit-engineering-io-2026-06-18",
+        "fromTime": "2026-06-18 15:30",
+        "id": "tokens-aren-t-free-smart-ai-usage-today",
+        "metadata": {
+            "conferenceId": "562gBbcXGGFdlozCJKW5",
+            "format": {
+                "confCompanionCode": "talk",
+                "createdAt": 1613337101583,
+                "description": "Consiste \u00e0 pr\u00e9senter de mani\u00e8re \"formelle\" un sujet, avec support de slides. Comme un cours magistral.",
+                "id": "tgaK1RJ2ZBHKLe5lJQ1j",
+                "label": "Formal",
+                "updatedAt": 1613484236396
+            },
+            "level": {
+                "createdAt": 1613337444016,
+                "emoji": "\ud83e\udd17",
+                "id": "YxYzJqSzVoKLgCjAlZ9V",
+                "label": "Pour tout le monde",
+                "updatedAt": 1646393040174,
+                "value": 1
+            },
+            "talkId": "HIJqEl6pyi2WDJOtfsu9",
+            "topic": {
+                "color": "#3695e7",
+                "confCompanionCode": "back",
+                "createdAt": 1633535736387,
+                "id": "dyGACJBqJ4og01EhDpmw",
+                "label": "AI",
+                "updatedAt": 1636999419688
+            }
+        },
+        "onlineCallUrl": "https://meet.google.com/qix-thrp-sam",
+        "room": "LGB",
+        "speakers": [
+            {
+                "id": "Nicola Carli",
+                "name": "Nicola Carli"
+            }
+        ],
+        "summary": "Generative AI is powerful, but tokens cost money and energy. This session explores practical strategies to use AI intelligently without burning your budget (and the world). We'll cover when to use AI, when to skip it, prompt optimization, and how to measure actual ROI from your AI investments. \nBonus: being smart about tokens also means being responsible about energy consumption. Because the golden age of free tokens is over, and now we need to think.",
+        "title": "Tokens aren't free: Smart AI usage today",
+        "toTime": "2026-06-18 15:55",
+        "track": "engineering",
+        "type": "talk"
+    }
+]

@@ -115,7 +115,6 @@ export default Vue.extend({
 }
 
 .talk {
-  background-color: white;
   position: absolute;
   width: 220px;
 

@@ -40,17 +40,18 @@ export default Vue.extend({
 .talk {
   padding: 6px;
   border-radius: $radius;
-  box-shadow: $shadow;
+  //box-shadow: $shadow;
   display: flex;
   flex-direction: column;
   width: auto;
   flex-grow: 1;
   flex-wrap: wrap;
+  transition: 0.125s ease-in;
 
   &.keynote {
     background-color: $primary;
     color: $text-on-primary;
-    border-left: none;
+    border-left: 3px solid black;
 
     .title {
       height: auto;
@@ -61,10 +62,8 @@ export default Vue.extend({
   }
 
   &:hover {
-    background-color: darken(white, 10);
-
     &.keynote {
-      background-color: darken($primary, 10);
+      background-color: $primary-hover;
     }
     &.yesAWS {
       background-color: darken(#bb5500, 10);
@@ -104,22 +103,38 @@ export default Vue.extend({
 
 .Agile, .Produit, .Green, .Stratégie, .Product{
   border-left: solid 3px $product;
+  background-color: fade-out($product, 0.8);
+  &:hover{
+    background-color: $product
+  }
 }
 
 .Experience, .Design, .UX, .UI {
   border-left: solid 3px $experience;
+  background-color: fade-out($experience, 0.8);
+  &:hover{
+    background-color: $experience
+  }
 }
 
 .Mobile, .Engineering, .Craft, .Sécurité, .Cloud {
   border-left: solid 3px $engineering;
+  background-color: fade-out($engineering, 0.8);
+  &:hover{
+    background-color: $engineering
+  }
 }
 
 .Data, .AI {
   border-left: solid 3px $data;
+  background-color: fade-out($data, 0.8);
+  &:hover{
+    background-color: $data
+  }
 }
 
 .AI {
-  background: url('data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20126%2069%22%20width=%22126%22%20height=%2269%22%20style=%22opacity:%200.25;filter:%20hue-rotate(210deg);%22%3E%3Ctext%20x=%220em%22%20y=%221em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%221em%22%20y=%222em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%222em%22%20y=%221em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%223em%22%20y=%222em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3C/svg%3E') repeat;
+  background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20126%2069%22%20width=%22126%22%20height=%2269%22%20style=%22opacity:%200.5;%22%3E%3Ctext%20x=%220em%22%20y=%221em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%221em%22%20y=%222em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%222em%22%20y=%221em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3Ctext%20x=%223em%22%20y=%222em%22%20font-size=%2230%22%3E%E2%9C%A8%3C/text%3E%3C/svg%3E');
   background-size: 126px 69px;
 }
 .Other {

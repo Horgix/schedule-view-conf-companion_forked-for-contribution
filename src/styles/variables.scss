@@ -6,8 +6,11 @@
 //  - in the **TalkInfo** view for the **speaker** blocks background
 //$primary: #FE414D;
 //$text-on-primary: white;
-$primary: #08386F;
-$text-on-primary: white;
+//$primary: #08386F;
+
+$primary: #FFC7FF; // rebranding primary L6 (default)
+$primary-hover: #F048F0;
+$text-on-primary: black;
 
 // Accent color is used to put accent on things that should stand out somehow.
 // It is used:
@@ -17,16 +20,18 @@ $text-on-primary: white;
 //      - for the **time** badge
 //      - for the **room** badge
 //$accent: #419FFE;
-$accent: #F5C13F;
-$text-on-accent: black;
+//$accent: #F5C13F;
+$accent: #0D0D0C;
+$text-on-accent: white;
 
 // Passive color is used to dissociate "passive" information while not
 // especially making them stand out
 //  - in the **Header** for the background color of the banner with the date
 //  - in the **TalkInfo** view for the **_back to planning_** button
 //$passive: #B2B2B2;
-$passive: #DFF3F6;
-$text-on-passive: black;
+//$passive: #DFF3F6;
+$passive: #0D0D0C; // rebranding content surface neutral state 
+$text-on-passive: white;
 
 // Background color is used to compute all the main colored backgrounds
 // everywhere; it is used: - for the **Header** background
@@ -37,17 +42,23 @@ $text-on-passive: black;
 //      - for the main background
 //      - for the main talk summary background, by lightening it a bit
 //$background: #E6E6E6;
-$background: #FFF6E6;
+//$background: #FFF6E6;
+$background: #FFFFFF; //rebranding
 
 $radius: 2px;
 $radius-badge: 20px;
 $shadow: 0 0 20px 0 rgb(0 0 0 / 15%);
 
-$engineering: #ffb60a; // sunglow
-$product: #13b9b0; // teal l4
-$design:#e6329b; // plum l4
-$data: #b6a8ff; // purple l4
-$other: #FF0000;
+//$engineering: #ffb60a; // sunglow
+$engineering: #4FB5E3; // rebranding blue L6
+//$product: #13b9b0; // teal l4
+$product: #0C9149; // green l8
+//$design:#e6329b; // plum l4
+$design:#FF5833; // rebranding peach L10
+//$data: #b6a8ff; // purple l4
+$data: #F4C62A; // yellow L6
+//$other: #FF0000;
+$other: #E12D38; // rebranding red L7
 
 // derivative topic
 $ai:$data;
@@ -58,7 +69,7 @@ $ui:$design;
 
 %body-shared {
   max-width: 1024px;
-  box-shadow: $shadow;
+  //box-shadow: $shadow;
   border-radius: $radius;
   margin: 30px auto auto;
   background-color: $background;
