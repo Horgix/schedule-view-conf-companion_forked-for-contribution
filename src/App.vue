@@ -20,7 +20,7 @@
   import Error from '@/components/Error.vue';
   import Loading from '@/components/Loading.vue';
   import { ScheduleEvent } from '@/schedule/schedule';
-  import scheduleJson from './talks.json'; // for local development
+  //import scheduleJson from './talks.json'; // for local development
 
   export default Vue.extend({
     components: { Loading, Error, Header, Footer},//, Legend },
@@ -33,14 +33,14 @@
     },
     async mounted() {
       try {
-        //const response = await axios.get<ScheduleEvent[]>('https://engineering.payfit.io/schedules/latest.json');
-        const response = scheduleJson; // for local development
-        this.schedule = response; // for local development
-        this.day = response[0].fromTime; // for local development
-        // if (response.status === 200) {
-        //  this.schedule = response.data;
-        //  this.day = response.data[0].fromTime;
-        // }
+        const response = await axios.get<ScheduleEvent[]>('https://engineering.payfit.io/schedules/latest.json');
+        // const response = scheduleJson; // for local development
+        // this.schedule = response; // for local development
+        // this.day = response[0].fromTime; // for local development
+        if (response.status === 200) {
+          this.schedule = response.data;
+          this.day = response.data[0].fromTime;
+        }
       } catch (e) {
         console.error(e);
       } finally {
