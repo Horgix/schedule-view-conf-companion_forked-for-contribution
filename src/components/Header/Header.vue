@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <a href="https://engineering.payfit.io">
-      <img class="header__logo" alt="Engineering I/O logo" src="./engineering-io-blue-horizontal.svg"/>
+      <img class="header__logo" alt="Payfit I/O logo" src="./payfitIO.png"/>
     </a>
     <div class="header__banner">
       <h2>{{theDay}}</h2>
